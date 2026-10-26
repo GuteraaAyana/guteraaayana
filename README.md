@@ -1,5 +1,3 @@
-<!-- Save this as README.md in a PUBLIC repo named exactly like your GitHub username: guteraaayana/guteraaayana -->
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0ea5e9,100:8b5cf6&text=Guteraa%20Ayana&fontColor=ffffff&fontSize=56&fontAlignY=38&desc=Math%20%2B%20CS%20%40%20Emory%20University&descAlignY=60&descSize=20" alt="Guteraa Ayana banner" width="100%" />
@@ -51,6 +49,7 @@ Right now I'm looking for **Summer 2027 internships** in **software engineering*
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge)
+![NetworkX](https://img.shields.io/badge/NetworkX-2C5BB4?style=for-the-badge)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -62,13 +61,17 @@ Right now I'm looking for **Summer 2027 internships** in **software engineering*
 
 ## 🚀 Featured projects
 
-### ⚽ Soccer Analytics Research
-*Python · Pandas · NumPy · Matplotlib · SLURM*
+### ⚽ [Temporal Dynamics of Goal Scoring in Soccer](https://github.com/GuteraaAyana/amr-soccer)
+*Python · Pandas · NumPy · NetworkX · Matplotlib · SLURM*
 
-I analyzed **3,433 professional soccer matches** to study when goals actually happen, then published the findings as an **arXiv pre-print**.
+[![Repo](https://img.shields.io/badge/Code-amr--soccer-181717?style=flat-square&logo=github)](https://github.com/GuteraaAyana/amr-soccer)
+[![arXiv](https://img.shields.io/badge/arXiv-2501.18606-b31b1b?style=flat-square)](https://arxiv.org/abs/2501.18606)
+
+**Co-first author** on research at Northeastern's **Network Science Institute**. We used Hudl StatsBomb event data from **3,433 professional matches across 21 leagues** and compared real goal timing with a null model of **6M simulated matches**.
 
 - Goal-scoring probability **rises as a match goes on**, with far fewer goals than expected early in each half (χ² ≈ 288.62, p ≈ 3.7 × 10⁻²¹).
-- Scoring is **bursty**: teams are more likely to score again shortly after they score, which is temporal clustering that random chance doesn't explain.
+- Scoring is **bursty**: the team that just scored is more likely to score again soon than chance predicts.
+- Extended the work with **event networks and PageRank** to find which sequences of play lead to goals.
 - Built reproducible data pipelines on SLURM for the large-scale runs.
 
 ### 🏀 Atlanta Hawks Ticket Sales Analysis
@@ -84,7 +87,7 @@ As part of a multidisciplinary consulting team, I analyzed historical ticket sal
 | --- | --- | --- |
 | **Sep 2026 – Present** | **Emory SGA**, Vice President of Technology | Build apps for other divisions, maintain the SGA website, review and defend bills, and report to the Chief of Staff |
 | **Mar 2026 – Present** | **Emory Honor Council**, Member | Uphold the Honor Code by reviewing cases impartially and confidentially |
-| **Aug 2024 – Oct 2025** | **Northeastern University**, Research Assistant | Soccer analytics research, regression modeling, and SLURM data pipelines |
+| **Aug 2024 – Oct 2025** | **Northeastern University, Network Science Institute**, Research Assistant | Co-first author on a [soccer analytics pre-print](https://arxiv.org/abs/2501.18606): null-model simulation, regression modeling, and SLURM data pipelines |
 | **Aug 2023 – Jun 2025** | **Breck School**, STEM Tutor | Tutored 10+ students in CS, calculus-track math, chemistry, and statistics |
 
 ---
