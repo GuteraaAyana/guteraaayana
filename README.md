@@ -76,7 +76,7 @@ Right now I'm looking for **Summer 2027 internships** in **software engineering*
 
 A full-stack app for people who love fragrance: keep a collection, log every wear (the weather fills itself in), rank what you've tried into your own score out of 10, review, and follow other people's taste. I designed, built and deployed it end to end.
 
-- Built and deployed a full-stack "Letterboxd for fragrances" where users **rank, review, and log wears** of fragrances, with GitHub/Google sign-in, follows, and an activity feed.
+- Built and deployed a full-stack "Letterboxd for fragrances" where users **rank, review, and log wears** of fragrances, with GitHub sign-in, follows, and an activity feed.
 - Designed **comparison-based ranking** that places each fragrance by binary search (**≤7 questions for 100 items**) and converts list position into a 0–10 score.
 - Modeled a **21-table PostgreSQL schema** with versioned migrations, and imported catalog data from a third-party API with deduplication and name matching.
 - Raised mobile Lighthouse performance on the browse page **from 83 to 93** by fixing image loading priority and halving page weight (2.0 to 1.1 MB).
