@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0ea5e9,100:8b5cf6&text=Guteraa%20Ayana&fontColor=ffffff&fontSize=56&fontAlignY=38&desc=Math%20%2B%20CS%20%40%20Emory%20University&descAlignY=60&descSize=20" alt="Guteraa Ayana banner" width="100%" />
 
 <a href="https://github.com/guteraaayana">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=0EA5E9&center=true&vCenter=true&width=620&lines=Software+Engineering+%2B+Data+%2B+ML;Sports+analytics+nerd;VP+of+Technology+at+Emory+SGA;Currently+grinding+NeetCode+150" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=0EA5E9&center=true&vCenter=true&width=620&lines=Software+Engineering+%2B+Data+%2B+ML;Building+Scentbook%3A+Letterboxd+for+fragrance;Sports+analytics+nerd;VP+of+Technology+at+Emory+SGA;Currently+grinding+NeetCode+150" alt="Typing animation" />
 </a>
 
 <br/>
@@ -29,7 +29,7 @@ Right now I'm looking for **Summer 2027 internships** in **software engineering*
 | --- | --- |
 | 🏛️ **Building** | Apps and tools for ~8,000 students as **Vice President of Technology** at Emory's Student Government Association |
 | 🧠 **Grinding** | NeetCode 150, plus leveling up on SQL and AWS |
-| ⚽ **Working on** | A full-stack sports analytics web app as my portfolio centerpiece |
+| 🌸 **Shipped** | [Scentbook](https://scentbook.online), a full-stack "Letterboxd for fragrance", live on AWS |
 | 📚 **Studying** | Data structures & algorithms, computer architecture, multivariable calculus, and linear algebra |
 
 ---
@@ -43,10 +43,15 @@ Right now I'm looking for **Summer 2027 internships** in **software engineering*
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge)
 ![NetworkX](https://img.shields.io/badge/NetworkX-2C5BB4?style=for-the-badge)
@@ -60,6 +65,21 @@ Right now I'm looking for **Summer 2027 internships** in **software engineering*
 ---
 
 ## 🚀 Featured projects
+
+### 🌸 [Scentbook](https://scentbook.online): Letterboxd for fragrance
+*TypeScript · Next.js · React · PostgreSQL · Tailwind · Docker · AWS*
+
+[![Live site](https://img.shields.io/badge/Live-scentbook.online-f2b33d?style=flat-square)](https://scentbook.online)
+[![Repo](https://img.shields.io/badge/Code-scentbook-181717?style=flat-square&logo=github)](https://github.com/GuteraaAyana/scentbook)
+
+<a href="https://scentbook.online"><img src="https://raw.githubusercontent.com/GuteraaAyana/scentbook/main/docs/screenshots/home.jpg" alt="Scentbook's home page: a search box above a row of fragrance posters" width="100%" /></a>
+
+A full-stack app for people who love fragrance: keep a collection, log every wear (the weather fills itself in), rank what you've tried into your own score out of 10, review, and follow other people's taste. I designed, built and deployed it end to end.
+
+- **Ranking by comparison:** each new fragrance is placed by binary search over your list, so 100 fragrances take at most **7 questions**, and position becomes a 0–10 score.
+- **Built to run for real:** a 21-table PostgreSQL schema, GitHub/Google sign-in, review moderation with rate limits, and **107 unit tests** on the core logic.
+- **Deployed on AWS** (EC2, RDS, ECR) with Docker, automatic HTTPS and deploys that roll themselves back if the health check fails.
+- **Fast:** Lighthouse **93–99** performance and **100** accessibility on mobile.
 
 ### ⚽ [Temporal Dynamics of Goal Scoring in Soccer](https://github.com/GuteraaAyana/amr-soccer)
 *Python · Pandas · NumPy · NetworkX · Matplotlib · SLURM*
