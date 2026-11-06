@@ -76,10 +76,11 @@ Right now I'm looking for **Summer 2027 internships** in **software engineering*
 
 A full-stack app for people who love fragrance: keep a collection, log every wear (the weather fills itself in), rank what you've tried into your own score out of 10, review, and follow other people's taste. I designed, built and deployed it end to end.
 
-- **Ranking by comparison:** each new fragrance is placed by binary search over your list, so 100 fragrances take at most **7 questions**, and position becomes a 0–10 score.
-- **Built to run for real:** a 21-table PostgreSQL schema, GitHub/Google sign-in, review moderation with rate limits, and **107 unit tests** on the core logic.
-- **Deployed on AWS** (EC2, RDS, ECR) with Docker, automatic HTTPS and deploys that roll themselves back if the health check fails.
-- **Fast:** Lighthouse **93–99** performance and **100** accessibility on mobile.
+- Built and deployed a full-stack "Letterboxd for fragrances" where users **rank, review, and log wears** of fragrances, with GitHub/Google sign-in, follows, and an activity feed.
+- Designed **comparison-based ranking** that places each fragrance by binary search (**≤7 questions for 100 items**) and converts list position into a 0–10 score.
+- Modeled a **21-table PostgreSQL schema** with versioned migrations, and imported catalog data from a third-party API with deduplication and name matching.
+- Raised mobile Lighthouse performance on the browse page **from 83 to 93** by fixing image loading priority and halving page weight (2.0 to 1.1 MB).
+- Deployed on **AWS (EC2, RDS, ECR)** with Docker, automatic HTTPS, and health-checked rollbacks; scored **93–99** Lighthouse performance and **100** accessibility.
 
 ### ⚽ [Temporal Dynamics of Goal Scoring in Soccer](https://github.com/GuteraaAyana/amr-soccer)
 *Python · Pandas · NumPy · NetworkX · Matplotlib · SLURM*
