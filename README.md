@@ -108,7 +108,7 @@ As part of a multidisciplinary consulting team, I analyzed historical ticket sal
 | --- | --- | --- |
 | **Sep 2026 – Present** | **Emory SGA**, Vice President of Technology | Build apps for other divisions, maintain the SGA website, review and defend bills, and report to the Chief of Staff |
 | **Mar 2026 – Present** | **Emory Honor Council**, Member | Uphold the Honor Code by reviewing cases impartially and confidentially |
-| **Aug 2024 – Oct 2025** | **Northeastern University, Network Science Institute**, Research Assistant | Co-first author on a [soccer analytics pre-print](https://arxiv.org/abs/2501.18606): null-model simulation, regression modeling, and SLURM data pipelines |
+| **Aug 2024 – Oct 2025** | **Northeastern University, Network Science Institute**, Data Analytics & Engineering Intern | Co-first author on a [soccer analytics pre-print](https://arxiv.org/abs/2501.18606): null-model simulation, regression modeling, and SLURM data pipelines |
 | **Aug 2023 – Jun 2025** | **Breck School**, STEM Tutor | Tutored 10+ students in CS, calculus-track math, chemistry, and statistics |
 
 ---
