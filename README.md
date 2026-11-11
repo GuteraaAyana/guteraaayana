@@ -17,7 +17,7 @@
 
 ## 👋 About me
 
-I'm a sophomore at **Emory University** studying **Mathematics and Computer Science**. I like turning messy data into something people can actually use, whether that's a model that finds patterns in thousands of soccer matches or an app that makes student government run a little smoother.
+I'm a second year at **Emory University** studying **Mathematics and Computer Science**. I like turning messy data into something people can actually use, whether that's a model that finds patterns in thousands of soccer matches or an app that makes student government run a little smoother.
 
 Right now I'm looking for **Summer 2027 internships** in **software engineering**, **data / ML**, and **quantitative** roles.
 
